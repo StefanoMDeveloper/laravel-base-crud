@@ -12,7 +12,7 @@
 
         <div class="form-group">
             <label for="title">Titolo</label>
-            <input type="text" class="form-control" id="title" name="title" placeholder="Inserisci il nome del fumetto">
+            <input type="text" class="form-control @error('title') is-invalid @enderror" id="title" name="title" placeholder="Inserisci il nome del fumetto">
         </div>
         <div class="form-group">
             <label for="description">Descrizione</label>
